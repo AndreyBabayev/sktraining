@@ -1,25 +1,4 @@
-div{
-  background-color: aquamarine; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
-}
-div:hover {
-
-background-color: darkviolet;}
-
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-}
-#item, p{
-    color: brown;
-}
-div p{
-    background-color: chocolate;
-    color: darkblue;
-}
-span{
-    background-color: darkred;
-}
-
+.tr1 :hover {color: #3b5998}
+.tr2 :hover {color: #c4302b}
+.tr3 :hover {color:  #3f729b}
+.tr4 :hover{color: red}
