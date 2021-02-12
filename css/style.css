@@ -1,25 +1,10 @@
 div{
-  background-color: aquamarine; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
-}
-div:hover {
+line-height: 1.4em;
+letter-spacing: 0.05em;
+font-size: 24px;
+font-weight: medium;
+text-align: justify;
+color: green;}
 
-background-color: darkviolet;}
 
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-}
-#item, p{
-    color: brown;
-}
-div p{
-    background-color: chocolate;
-    color: darkblue;
-}
-span{
-    background-color: darkred;
-}
 
