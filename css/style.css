@@ -1,25 +1,33 @@
-div{
-  background-color: aquamarine; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
+*{
+    margin: 0px;
+    padding: 0px;
+    color: snow;
 }
-div:hover {
-
-background-color: darkviolet;}
-
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
+.header{
+    background-color:lightgreen;
+    height: 50px;
+    text-align: center;
 }
-#item, p{
-    color: brown;
+.nav{
+   background-color:green;
+        height: 40px;
 }
-div p{
-    background-color: chocolate;
-    color: darkblue;
+.main{
+ display: flex;
 }
-span{
-    background-color: darkred;
+#content{
+    background-color: mediumturquoise;
+    height: 300px;
+    width: 60%;  
+    text-align: center;
 }
-
+#aside, #sidebar{
+background-color: mediumblue;
+height: 300px;
+width: 20%;
+text-align: center;
+} 
+.footer{
+background-color: lightgreen;
+height: 30px;
+}
