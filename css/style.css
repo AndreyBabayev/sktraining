@@ -1,25 +1,13 @@
-div{
-  background-color: aquamarine; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
+.rotate {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    transition: transform .1s;
+     -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .1s ease-in-out; 
 }
-div:hover {
-
-background-color: darkviolet;}
-
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-}
-#item, p{
-    color: brown;
-}
-div p{
-    background-color: chocolate;
-    color: darkblue;
-}
-span{
-    background-color: darkred;
-}
-
+.rotate:hover {
+    transform:rotate(90deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -webkit-filter: grayscale(100%);}
