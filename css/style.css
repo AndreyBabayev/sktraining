@@ -1,25 +1,66 @@
-div{
-  background-color: aquamarine; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
+*{
+    width: 10px, auto;
+    margin: 10px, auto;
+    padding: auto;
+   }
+#tri { 
+    width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 140px solid red;
+   display: inline-block;
+    } 
+#tri1 { 
+    width: 0;
+    height: 0;
+    border-top: 140px solid red;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    display: inline-block;
 }
-div:hover {
-
-background-color: darkviolet;}
-
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
+#tri2{
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-top: 70px solid transparent;
+    border-left: 140px solid green;
+    border-bottom: 70px solid transparent;
 }
-#item, p{
-    color: brown;
+#tri3{
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-top: 70px solid transparent;
+    border-right: 140px solid green;
+    border-bottom: 70px solid transparent;
 }
-div p{
-    background-color: chocolate;
-    color: darkblue;
+#tri4{
+    width: 0;
+    height: 0;   
+    display: inline-block;
+    border-top: 140px solid transparent;
+    border-left: 140px solid yellow;
+    border-bottom: auto solid yellow;
+    }
+#tri5{
+    width: 0;
+	height: 0;
+    display: inline-block;
+	border-bottom: 140px solid yellow; 
+	border-left: 140px solid transparent; 
 }
-span{
-    background-color: darkred;
+#tri6{
+    width: 0;
+	height: 0;
+    display: inline-block;
+	border-top: 140px solid blue; 
+	border-right: 140px solid transparent;	
 }
-
+#tri7{
+    width: 0;
+	height: 0;
+    display: inline-block;
+	border-top: 140px solid blue; 
+	border-left: 140px solid transparent;
+}
