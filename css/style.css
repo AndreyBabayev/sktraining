@@ -1,25 +1,15 @@
-div{
-  background-color: aquamarine; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
+h1{
+color: black);
+font-weight: bolder;
 }
-div:hover {
-
-background-color: darkviolet;}
-
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
+ul{
+list-style-type: square;
 }
-#item, p{
-    color: brown;
+p{
+color: rgb(248, 19, 19);
+font-weight: bold;
 }
-div p{
-    background-color: chocolate;
-    color: darkblue;
+a{
+color: forestgreen;
+font-style: oblique;
 }
-span{
-    background-color: darkred;
-}
-
