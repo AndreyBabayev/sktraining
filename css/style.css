@@ -1,25 +1,48 @@
-div{
-  background-color: aquamarine; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 10px;
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #E5E5E5;
+    height: 3212px;
+    width: 1360px;
+    left: 1198px;
+}   
+.img{
+    width: 100px;
+    height: 20px;
+    left: 1115px;
+    top: 311px;
 }
-div:hover {
+.header{
+    width: 1110px;
+    height: 23.18px;
+    left: 125px;
+    top: 59px;}
+.box1{
+    width: 1110px;
+    height: 580px;
+    left: 125px;
+    top: 435px;
+}
 
-background-color: darkviolet;}
+.box2{
+    display: flex;
+    flex-direction: row;
+    align-self: auto;
+    width: 1110px;
+    height: 580px;
+    left: 125px;    
+    top: 435px;
+}
 
-.box {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-}
-#item, p{
-    color: brown;
-}
-div p{
-    background-color: chocolate;
-    color: darkblue;
-}
-span{
-    background-color: darkred;
-}
+
+
+
+
+
+
+
+
+
+
 
