@@ -1,32 +1,68 @@
-*{
-  margin: 10px;
-  padding: 10px;}
-.container {
-  font-family: sans-serif;
+.container{
+  font-family: 'Open Sans', sans-serif;
   display: grid;
-  width: 1440px;
-  height: 1576px; 
-  background: #F6F7FA;
   grid-template-columns: 1fr 1fr;
-  grid: gap 20px;
-  row-gap: 60px;}
- 
-.box1,.box3,.box5,.box7,.box9{
-  background:#F6F7FA;
-  width: 660px;
-  height: 184px;
-  border-radius: 16px;
-}
-.box2,.box4,.box6,.box8,.box10{
-  background: #F6F7FA;
-  width: 660px;
-  height: 184px;
-  border-radius: 16px;}
-   }
-  img{
-    background-size: cover;
+ grid-gap:20px;
+  row-gap: 60px;
+  background-color: rgb(241, 236, 236);
+  
+  }
+.class1, .class3, .class5, .class7, .class9{
+   color: white;
+   background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);;
+   border-radius: 16px;
+   height: 210px;
+   width: 600px;
+   margin-top: 10px;
+  }
+  .class2, .class4, .class6,.class8,.class10{
+      color: rgb(187, 37, 37);
+       background: #FFFFFF;;
+       border-radius: 16px;
+       height: 210px;
+       width: 600px;
+       margin-top: 10px;
+       }
+  .min1{
+      position: absolute;
+      display: inline;
+      margin-top: 80px;
+      margin-left: 50px;
+  }
+  .max1{
+      position: absolute;
+      display: inline;
+      font-size: 24px;
+      margin-top: 100px;
+      margin-left: 50px;
+      font-weight: 600;
+      }
 
+  .Basketball1,.Basketball2{
+  position: relative;
+  top: 30px;
+  margin-left: 300px;
   }
-  .box5{
-    padding: 10px;
+
+.Face1, .Face2{
+  position: relative;
+  top: 20px;
+  margin-left: 350px;
+}
+
+.Girl1, .Girl2{
+  position: relative;
+  top: 10px;
+  margin-left: 300px;
   }
+
+  .Musician1, .Musician2{
+  position: relative;
+  top: 15px;
+  margin-left: 300px;
+}
+
+.Shopping1, .Shopping2{
+  position: relative;
+  margin-left: 300px;
+}
