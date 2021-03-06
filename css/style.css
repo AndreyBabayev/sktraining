@@ -23,13 +23,13 @@
        width: 600px;
        margin-top: 10px;
        }
-  .min1{
+  .text{
       position: absolute;
       display: inline;
       margin-top: 80px;
       margin-left: 50px;
   }
-  .max1{
+  .time{
       position: absolute;
       display: inline;
       font-size: 24px;
