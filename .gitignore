@@ -1,6 +1,2 @@
-*.avi
-*.mp4
-*.mp3
-video
-log
-example.doc
+node_modules
+*.log+
