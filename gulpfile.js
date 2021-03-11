@@ -63,6 +63,7 @@ const del = require('del');
    exports.browsersync = browsersync;
    exports.cleandist = cleandist;
    
-   exports.default = parallel(browsersync, startWatch);
+   exports.default = series(browsersync, startWatch);
    exports.build = series (cleanimg, styles, images, buildcopy);
+   
  
