@@ -20,7 +20,6 @@ const imagemin = require('gulp-imagemin');
 const newer = require('gulp-newer');
 // Подключаем модуль del
 const del = require('del');
-
    function startWatch() {
    watch('app/**/*.scss', styles);
    watch('app/**/*.html').on('change',browserSync.reload);
@@ -47,7 +46,6 @@ const del = require('del');
    function cleandist() {
       return del('dist/**/*', { force: true })
       }
-
    function buildcopy() {
       return src([ 
          'app/css/**/*.min.css',
@@ -56,13 +54,12 @@ const del = require('del');
          ], {base: 'app' })
          .pipe(dest('dist'))
       }
-  
    exports.cleanimg = cleanimg;
    exports.images = images;
    exports.styles = styles;
    exports.browsersync = browsersync;
    exports.cleandist = cleandist;
    
-   exports.default = parallel(browsersync, startWatch);
+   exports.default = series(browsersync, startWatch);
    exports.build = series (cleanimg, styles, images, buildcopy);
  
