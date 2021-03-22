@@ -1,0 +1,100 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    }
+     .nav{
+    justify-content: center;
+    padding-left: 0;
+    }
+    // .nav>li{
+    // margin-left: 250px;
+    // margin-right: 250px;
+    // font-size: 18px;
+    // }
+    .tittle{
+    font-size: 50px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 400px;
+    }
+    .one{
+    margin-left: 50px;
+      }
+    .icons{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    margin-left: 1200px;
+    bottom: 100px;}
+  
+    .text1{
+    padding-top: 85px;
+    width: 1000px;
+    margin-left: 85px;
+    }
+  
+    #main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 50px;
+    }
+    button{
+      display: inline-block;
+      width: 100px;
+      height: 50px;
+      background-color:#EF8E70;
+      border: none;
+      margin-left: 800px;
+      }
+  
+  .two{
+      margin-top: 100px;
+      margin-left: 100px;
+        }
+     
+    .ft{
+    position: relative;
+    background-color: #515151;
+    list-style-type: none;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    }
+    
+    .Gravity{
+    margin-left: 150px;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    }
+    
+    .ft>li>a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+    
+    .button1{
+      display: flex;
+      background-color: #515151;
+      list-style-type: none;
+      height: 100px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 50px;
+      }
+     .button1>li>a{
+      text-decoration: none;
+      color: rgb(177, 163, 163);
+      margin-left: 180px;
+      margin-right: 50px;
+      }
+  
