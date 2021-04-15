@@ -1,22 +1,45 @@
-// 2)//  Создайте объект calculator с методами:
-// - sum () возвращает сумму двух значений
-// - mul () возвращает произведение этих двух значений
-// - инициализировать объект через функцию-конструктор
-let calculator = {
-    sum() {
-      return this.a + this.b;
-    },
-  
-    mul() {
-      return this.a * this.b;
-    },
-  
-    read() {
-      this.a = +prompt('a?', 0);
-      this.b = +prompt('b?', 0);
-    }
-  };
-  
-  calculator.read();
-  alert( calculator.sum() );
-  alert( calculator.mul() );
+// // 6. Сделайте функцию, 
+// принимает параметром число от 1 до 7, 
+// а возвращает день недели.
+function getSelectedValue(num){
+  let result;
+
+  num=parseInt(num);
+
+  if(typeof num=="number")
+  {switch(num)
+      {
+      case 1:
+          result= "Понедельник";
+      break;
+      case 2:
+          result= "Вторник";
+      break;
+      case 3:
+          result= "Среда";
+         break;
+      case 4:
+          result= "Четверг";
+      break; 
+          case 5:
+        result= "Пятница";
+    break;
+    case 6:
+        result= "Суббота";
+    break;
+
+    case 7:
+        result= "Воскресенье";
+    break;   
+    7
+    default:
+    result="Я не знаю такого значения"+num;}}
+ 
+  else{
+      result = "неправильный тип "+typeof num;
+  }
+  return result;
+}
+let num = prompt ("Введите число от 1 до 7");
+
+alert(getSelectedValue(num));

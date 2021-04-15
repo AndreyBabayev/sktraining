@@ -3,7 +3,7 @@
 let skill = {
     name: "html",
     level: 5,
-    fullName: function(){
+    fullName: function() {
     return this.name + " " + this.level;
 }
 };    
