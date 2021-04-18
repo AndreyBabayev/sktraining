@@ -29,19 +29,3 @@ if(body.children[i].children.length > 0){
   }}
    document.getElementsByTagName('DIV')[2].style.color = "red";
 
-
-
-  
-
-//       }
-//   }
-
-//   }
-// }
-// console.log (document.getElementById("li").innerHTML);
-// box.innerHTML="Hello world";
-// box.style.backgroundColor="red";
-// console.log(box.classList.toggle ("item"));
-
-// // let elems=document.getElementsByTagName('DIV')[2].innerHTML;
-//
