@@ -1,1 +1,44 @@
-div{background-color:green}.cox-lg-1{width:51}.cox-lg-2{width:52}.cox-lg-3{width:53}.cox-lg-4{width:54}.cox-lg-5{width:55}.cox-lg-6{width:56}.cox-lg-7{width:57}.cox-lg-8{width:58}.cox-lg-9{width:59}.cox-lg-10{width:60}.cox-lg-11{width:61}.cox-lg-12{width:62}
+.popup{
+   display: none; 
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+}
+.close{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: auto;
+}
+.close:hover,
+.close:focus{
+    color: brown;
+    text-decoration: none;
+    cursor: pointer;
+}
+.popup-header{
+    background-color: blue;
+    color: cornsilk;
+    display: flex;
+    padding: 2px 16px;
+}
+.popup-body{
+    padding: 2px 16px;  
+}
+.popup-footer{
+    background-color: blue;
+    color: cornsilk;
+   padding: 2px 16px;
+}
+.popup-content{
+position: relative;
+background-color: darkkhaki;
+margin: auto;
+padding: 0;
+border: 1px solid grey;
+width: 80%;
+box-shadow: 0 4px 8px yellow, 0 6px 20px salmon;
+}

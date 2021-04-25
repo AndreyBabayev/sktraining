@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 60px;
+    background-color:palevioletred;
+}
+.photo{
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}

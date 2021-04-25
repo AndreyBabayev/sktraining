@@ -1,1 +1,21 @@
-div{background-color:green}.cox-lg-1{width:51}.cox-lg-2{width:52}.cox-lg-3{width:53}.cox-lg-4{width:54}.cox-lg-5{width:55}.cox-lg-6{width:56}.cox-lg-7{width:57}.cox-lg-8{width:58}.cox-lg-9{width:59}.cox-lg-10{width:60}.cox-lg-11{width:61}.cox-lg-12{width:62}
+#ProgressBar {
+    width: 80%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 4px;
+  }
+  
+  #Progress {
+    width: 10%;
+    background-color: #4A90E2;
+    height: 100%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-color: #4A90E2;
+    transition: width 2s;
+  }
+  
+  #Progress:hover {
+    width: 100%;
+  }
